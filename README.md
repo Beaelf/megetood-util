@@ -4,14 +4,14 @@ Provides common utility classes, including collection manipulation, object manip
 
 ## Overview
 
-* ListUtil: conditional grouping, conditional de-duplication, conditional search (single, multiple), conditional search maximum, set illegal check
-* ObjectUtil: remove all empty string of member variables, find member variables, map member variables to key-value, illegal validation
-* EnumUtil: provide two ways to obtain enumeration values with cache and without cache, improve the efficiency of enumeration value search O(n)->O(1)
-* LRUCache: bidirectional linked list +HashMap implementation, queued by recent use, cache reaches a threshold, the least used elements will be removed
-* DocxUtil: replace the document, table template characters, the table can increase the line.
-* MoneyUtil: Translate the figure amount into Chinese capitals.
-* API Call: encapsulate API interface call process and optimize code structure.
-* TimeCounter: Good timing tool
+* **ListUtil**: conditional grouping, conditional de-duplication, conditional search (single, multiple), conditional search maximum, set illegal check
+* **ObjectUtil**: remove all empty string of member variables, find member variables, map member variables to key-value, illegal validation
+* **EnumUtil**: provide two ways to obtain enumeration values with cache and without cache, improve the efficiency of enumeration value search O(n)->O(1)
+* **LRUCache**: bidirectional linked list +HashMap implementation, queued by recent use, cache reaches a threshold, the least used elements will be removed
+* **DocxUtil**: replace the document, table template characters, the table can increase the line.
+* **MoneyUtil**: Translate the figure amount into Chinese capitals.
+* **API Call**: encapsulate API interface call process and optimize code structure.
+* **TimeCounter**: Good timing tool
 
 ## Quick Start
 
