@@ -55,7 +55,7 @@ public class EnumUtilExample {
 
 ```
 
-### Word工具类
+### DocxUtil
 
 * Add dependency
 
