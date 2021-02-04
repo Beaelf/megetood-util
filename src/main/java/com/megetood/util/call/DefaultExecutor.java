@@ -53,6 +53,7 @@ public class DefaultExecutor implements Executor {
                 break;
         }
 
+        // convert result
         Converter<T, R> converter = call.getConverter(ConverterType.RESULT);
         if (converter != null) {
             return converter.convert(res);
